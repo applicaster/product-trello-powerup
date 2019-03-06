@@ -32,4 +32,4 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # Deploy to surge (Make sure you have SURGE_LOGIN & SURGE_TOKEN env variables configured)
-      - run: npm build_and_deploy
+      - run: npm run build_and_deploy
