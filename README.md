@@ -55,4 +55,4 @@ Production power up is located at - https://trello.com/power-ups/admin/4f79bf34e
 The board that uses this Power up is located at - https://trello.com/b/S8OIckkD/zapp-cycle-feature-rollout
 
 > Note: This Power up uses a Google script hosted in the cloud to create doc specs
-The script is located at - https://script.google.com/a/applicaster.com/d/1GqnCcXQKbB-McyClVe8qFOjLfS8XMqsvq2zx7JPZDyM7uaSG56GJq-yr/edit?usp=drive_web (You'll need to ask for permisssions to see and edit the code)
+The script is located at - https://script.google.com/a/applicaster.com/d/1GqnCcXQKbB-McyClVe8qFOjLfS8XMqsvq2zx7JPZDyM7uaSG56GJq-yr/edit?usp=drive_web (You'll need to ask for permissions to see and edit the code)
