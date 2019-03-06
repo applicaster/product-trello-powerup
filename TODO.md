@@ -1,5 +1,0 @@
-- Allow drag and drop
-- Allow to choose if we want to set the first item as default (Or use N/A as default)
-- Remove the delete option when creating a new status
-- Connect to circle ci
-- Make sure all can see list status
