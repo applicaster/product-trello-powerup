@@ -19,7 +19,7 @@
     "dev": "parcel *.html features/**/*.html",
     "build": "parcel build *.html features/**/*.html",
     "serveo": "ssh -R 344b310-5f0c-4812-9364-7ac25f605845:80:localhost:1234 serveo.net",
-    "deploy": "surge -p dist -d 344b310-5f0c-4812-9364-7ac25f605845.surge.sh",
+    "deploy": "npx surge -p dist -d 344b310-5f0c-4812-9364-7ac25f605845.surge.sh",
     "build_and_deploy": "npm run build && npm run deploy"
   },
   "engines": {
