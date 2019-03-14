@@ -5,7 +5,7 @@ import * as R from 'ramda';
 
 const appKey = process.env.APP_KEY;
 
-const checklistItemsRollout = [
+const checklistItemsCoreRollout = [
   'QA approved',
   'Updated on Product-Info-Hub',
   'Support training',
@@ -17,6 +17,18 @@ const checklistItemsRollout = [
   'Release on stable iOS version',
   'Released on stable Samsung version (N/A)',
   'Released on stable TVOS version (N/A)'
+];
+
+const checklistItemsPluginRollout = [
+  'QA approved',
+  'Code is Open Source',
+  'Updated on Product-Info-Hub',
+  'Updated on Plugin Gallery',
+  'Support training',
+  'Zendesk docs',
+  'Plugin is public',
+  'developer docs (N/A)',
+  'Announced on newsletter'
 ];
 
 const checklistItemsGrooming = [
@@ -64,13 +76,23 @@ TrelloPowerUp.initialize(
             })
         },
         {
-          text: 'Rollout checklist',
+          text: 'Core Rollout checklist',
           callback: t =>
             addChecklist({
               t,
               key: appKey,
               name: 'Rollout',
-              items: checklistItemsRollout
+              items: checklistItemsCoreRollout
+            })
+        },
+        {
+          text: 'Plugin Rollout checklist',
+          callback: t =>
+            addChecklist({
+              t,
+              key: appKey,
+              name: 'Rollout',
+              items: checklistItemsPluginRollout
             })
         }
       ];
