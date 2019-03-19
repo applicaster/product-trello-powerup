@@ -22,7 +22,6 @@ const checklistItemsCoreRollout = [
 const checklistItemsPluginRollout = [
   'QA approved',
   'Code is Open Source',
-  'Updated on Product-Info-Hub',
   'Updated on Plugin Gallery',
   'Support training',
   'Zendesk docs',
